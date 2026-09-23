@@ -1,6 +1,6 @@
 # 🧪 Algorithm Playground
 
-[![CI](https://img.shields.io/badge/CI-GitHub%20Actions-blue)](.github/workflows/ci.yml)
+[![CI](https://github.com/AmirHKD1386/algorithm-playground/actions/workflows/ci.yml/badge.svg)](https://github.com/AmirHKD1386/algorithm-playground/actions/workflows/ci.yml)
 [![Python](https://img.shields.io/badge/python-3.10%2B-blue)](https://www.python.org/downloads/)
 [![License: MIT](https://img.shields.io/badge/license-MIT-green.svg)](LICENSE)
 
@@ -30,8 +30,8 @@ friendly explanation · step generator for animation · benchmark harness.
 ## 🚀 Quickstart
 
 ```bash
-git clone <your-repo-url> algorithm_playground
-cd algorithm_playground
+git clone https://github.com/AmirHKD1386/algorithm-playground.git
+cd algorithm-playground
 pip install -r requirements.txt
 
 # GUI (recommended)
@@ -52,7 +52,7 @@ Then open the URL Streamlit prints (usually http://localhost:8501).
 ## 🗂️ Project structure
 
 ```
-algorithm_playground/
+algorithm-playground/
 ├── app.py                  # Streamlit entry point (sidebar + tab wiring)
 ├── views.py                # Learn / Visualize / Benchmark / Compare renderers
 ├── cli.py                  # Rich-powered CLI
